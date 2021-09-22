@@ -1,0 +1,61 @@
+/* Comments  */
+
+/* <!-- href="../../" for files that are not inside your directory and they will show up --> */
+
+
+/* Element selectors - 3rd most specific */
+
+h1{ 
+    color:purple;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+p { 
+    font-size: 20px;
+    font-weight: 700;
+    background-color: hotpink;
+    padding: 20px 5px 20px 5px;
+    margin: 20px;
+    border: 2px solid rgb(112, 119, 216);
+    border-radius: 4px;
+    /* can do padding for all sides in 1 go padding: 20px 30px 10px 5px */
+}
+
+/* Universal Selectors - 2nd most specific */
+
+* { 
+    color: none;
+}
+
+.subtitle {
+color:royalblue;
+}
+
+/* ID Selectors - are the most specific so will override all other selectors*/
+
+#msg {
+    color: green;
+    font-weight: bold;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cedarville Cursive', cursive;
+    scroll-behavior: smooth;
+}
+
+button {
+    color: white;
+    background-color: black;
+    border: 0;
+    border-radius: 4px;
+    padding: 10;
+    margin: 10px;
+}
+
+.martine { 
+    color: red;
+}

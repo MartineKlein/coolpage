@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth; 
+}
+
+header {
+    margin: 40px;
+}
+
+nav a {
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 8px 16px 8px 16px;
+    cursor: pointer;    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    padding: 14px 24px 16px 24px;
+    cursor: pointer;    
+}
+
+.first.second {
+    font-size: 20px;
+    line-height: 26px;
+    max-width: 500px;
+}
+
+.header {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2px;
+    margin-bottom: 32px;
+}
+
+.yellow {
+    background-color: #ffc700;
+    margin-top: 100px;
+}
+
+div {
+    /* to check!!! */
+    max-width: 550px;
+
+}
+
+video {
+    width: 550px;
+    max-width: 550px;
+}
+
+.community {
+    background-color: black;
+    color: white;
+
+}
+
+.communityheader {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+
+}
+
+.communityfirst {
+    max-width: 800;
+    text-align: center;
+}
+
+.img {
+    border-radius: 10px;
+    margin: 20px;
+    max-width: 400px;
+    object-fit: fill;
+}
+
+.whitebutton {
+    color:black;
+    background-color: white;
+    margin: 50px;
+    
+}
